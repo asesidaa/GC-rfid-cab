@@ -29,7 +29,7 @@ void setup() {
 
 bool cardIn = false;
 void loop() {
-	auto pressed = (digitalRead(buttonPin) == HIGH);
+	auto pressed = (digitalRead(buttonPin) == LOW);
 	if (pressed) {
 		cardIn = true;
 	}
